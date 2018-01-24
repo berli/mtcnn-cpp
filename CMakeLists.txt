@@ -3,6 +3,7 @@ project(mtcnn-cpp)
 
 set (CMAKE_CXX_STANDARD 11)
 
+ADD_DEFINITIONS(-DCPU_ONLY)
 find_package(Caffe REQUIRED)
 find_package(OpenCV REQUIRED)
 
